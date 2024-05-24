@@ -4,6 +4,10 @@ import { IoHomeOutline } from "react-icons/io5";
 import { FloatingNav } from '@/components/ui/FloatingNav';
 import Grid from '@/components/Grid';
 import Image from "next/image";
+import RecentProjects from "@/components/RecentProjects";
+import { navItems } from "@/data";
+import Testimonials from "@/components/Testimonials";
+import Experience from "@/components/Experience";
 
 export default function Home() {
   return (
@@ -12,18 +16,13 @@ export default function Home() {
       <ModeToggle />
       <div className="max-w-7xl w-full">
         <FloatingNav
-          navItems={[
-            {
-              name: "Home",
-              link: "/",
-              icon: (
-                <IoHomeOutline className="h-4 w-4 text-neutral-500 dark:text-white" />
-              ),
-            },
-          ]}
+          navItems={navItems}
         />
         <Hero />
-        <Grid/>
+        <Grid />
+        <RecentProjects />
+        <Testimonials />
+        <Experience/>
       </div>
     </main>
   );
