@@ -32,7 +32,7 @@ const Hero = () => {
               words="Transforming Your ideas to incredible Websites"
             />
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-              Let's build something great
+              Let&apos;s build something great
             </p>
             <a href="#about">
                           <MagicButton title="Watch Our works"

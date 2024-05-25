@@ -1,7 +1,7 @@
 import React from 'react'
 import MagicButton from './ui/MagicButton';
 import { FaLocationArrow } from 'react-icons/fa';
-import { socialMedia } from '@/data';
+import { socialMedia } from '@/data/en';
 
 const Footer = () => {
       const currentYear = new Date().getFullYear();

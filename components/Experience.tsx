@@ -1,5 +1,5 @@
 import React from "react";
-import { workExperience } from "@/data";
+import { workExperience } from "@/data/en";
 import { Button } from "./ui/moving-border";
 
 

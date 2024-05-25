@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import { companies, testimonials } from "@/data";
+import { companies, testimonials } from "@/data/en";
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
 const Testimonials = () => {
