@@ -223,7 +223,7 @@ export const navItems = [
   { name: "درباره", link: "#about" },
   { name: "پروژه‌ها", link: "#projects" },
   { name: "نظرات", link: "#testimonials" },
-  { name: "تماس", link: "#contact" },
+  { name: "تماس", link: "#footer" },
 ];
 
 export const gridItems = [
