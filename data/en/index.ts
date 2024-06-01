@@ -394,7 +394,7 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "کارآموز مهندسی فرانت‌اند",
+    title: " مهندسی فرانت‌اند",
     desc: "کمک به توسعه پلتفرم مبتنی بر وب با استفاده از React.js، افزایش تعامل.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
@@ -426,7 +426,7 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "https://github.com/Web-designanddev",
+    href: "https://github.com/Web-designanddev",
   },
   {
     id: 2,
