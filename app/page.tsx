@@ -1,8 +1,7 @@
 import Hero from "@/components/Hero";
-import { ModeToggle } from "@/components/mode-toggle";
 import { IoHomeOutline } from "react-icons/io5";
-import { FloatingNav } from '@/components/ui/FloatingNav';
-import Grid from '@/components/Grid';
+import { FloatingNav } from "@/components/ui/FloatingNav";
+import Grid from "@/components/Grid";
 import Image from "next/image";
 import RecentProjects from "@/components/RecentProjects";
 import { navItems } from "@/data/en";
@@ -24,7 +23,7 @@ export default function Home() {
         <Testimonials />
         <Experience />
         <Approach />
-        <Footer/>
+        <Footer />
       </div>
     </main>
   );

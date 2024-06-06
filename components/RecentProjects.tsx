@@ -1,12 +1,9 @@
-
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data/en";
 import { PinContainer } from "./ui/PinContainer";
 import Link from "next/link";
-
-
 
 const RecentProjects = () => {
   return (
@@ -22,9 +19,9 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title={item.title} 
+              title={item.title}
               className="w-full"
-              href={item.link} 
+              href={item.link}
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div

@@ -80,22 +80,21 @@
 
 @layer utilities {
   .heading {
-    @apply font-bold text-4xl md:text-5xl text-center;
+    @apply font-bold text-4xl md:text-5xl text-center text-white;
   }
 
   .black-gradient {
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
 }
-/* globals.css */
 body {
   transition: background-color 0.5s, color 0.5s;
 }
 
-body.light {
+/* body.light {
   background-color: #ffffff;
   color: #000000;
-}
+} */
 
 body.dark {
   background-color: #000000;
